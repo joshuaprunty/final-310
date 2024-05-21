@@ -1,0 +1,18 @@
+https://api.prizepicks.com/projections?league_id=7&per_page=250&state_code=IL&single_stat=true&game_mode=pickem
+- Returns information on all active lines for given league
+- PARAMETERS
+  - league_id=INT
+      7 -> NBA
+  - per_page=INT
+  - state_code=STR
+      IL -> Illinois
+  - single_stat=BOOL
+      (true)
+  - game_mode=STR
+      (pickem)
+
+https://api.prizepicks.com/leagues?state_code=IL&game_mode=pickem
+- Returns information for each league
+
+https://api.prizepicks.com/players/173626/last_five_games?league_name=NBA
+- Returns information for given player's last five games

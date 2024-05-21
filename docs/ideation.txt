@@ -1,0 +1,34 @@
+GPT4 Functionality Ideas
+---------------------------------------------------
+
+Data Visualization:
+  Interactive Dashboards: Create interactive dashboards using AWS QuickSight to visualize player performance trends, odds changes, 
+  and other metrics. The backend can aggregate data and push it to QuickSight for visualization.
+
+Predictive Modeling:
+  Player Performance Predictions: Develop a machine learning model to predict player performance based on historical data and current 
+  projections. Use AWS SageMaker for model training and deployment.
+
+Data Cleaning and Normalization:
+  Data Validation and Normalization: Implement a robust data pipeline to clean and normalize data from the PrizePicks API before 
+  storing it. Use AWS Glue for ETL (Extract, Transform, Load) operations.
+
+Performance Monitoring:
+  Player Performance Monitoring: Monitor player performance in real-time during games and update projections accordingly. Use AWS 
+  IoT Core to stream real-time data and Lambda for processing.
+
+Advanced Filtering and Searching:
+  Advanced Search Functionality: Implement advanced search and filtering capabilities for users to find specific projections based 
+  on multiple criteria. Use Elasticsearch Service on AWS for indexing and searching.
+
+Comparative Analysis:
+  Comparison with Market Odds: Compare PrizePicks projections with odds from other sportsbooks and highlight discrepancies. Use 
+  Lambda for fetching and comparing data from different sources.
+
+Custom Alerts and Notifications:
+  User-Defined Alerts: Allow users to set custom alerts for specific players or events. Use AWS DynamoDB to store user preferences 
+  and SNS for notifications.
+
+Integration with Betting Platforms:
+  Seamless Integration: Integrate the service with online betting platforms to allow users to place bets directly based on insights. 
+  Use AWS API Gateway to create secure API endpoints for integration.

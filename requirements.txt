@@ -1,0 +1,4 @@
+requests
+pandas
+prompt_toolkit
+colorama
